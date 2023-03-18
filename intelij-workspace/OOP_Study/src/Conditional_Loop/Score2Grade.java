@@ -25,6 +25,8 @@ public class Score2Grade {
             case 6:
                 grade = 'D';
                 break;
+            case 5:
+                grade = 'F';
 
         }
     }
