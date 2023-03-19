@@ -21,6 +21,7 @@ public class Score2Grade {
                 break;
             case 7:
                 grade = 'C';
+                break;
 
         }
     }
