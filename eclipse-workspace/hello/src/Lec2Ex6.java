@@ -1,0 +1,16 @@
+
+public class Lec2Ex6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] s = {12,3,19,6,18,8,12,4,1,19};
+		int result = s[0];
+		
+		for(int i = 1; i<s.length; i++) {
+			if(result > s[i])
+				result = s[i];
+		}
+		System.out.print(result);
+	}
+
+}

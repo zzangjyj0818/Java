@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		String str, compare;
+		
+		while(true) {
+			System.out.printf("문자열을 입력하세요> ");
+			str = input.next();
+		}
+	}
+
+}

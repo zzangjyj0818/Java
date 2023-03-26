@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class QuardraticEq {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		final double a = 1;
+		double b,c;
+		
+		System.out.println("b와 c를 입력하세요 : ");
+		b = input.nextDouble();
+		c = input.nextDouble();
+		
+		double root1, root2;
+		root1 = (-b + Math.sqrt((b*b)-(4*a*c))) / 2*a;
+		root2 = (-b - Math.sqrt((b*b)-(4*a*c))) / 2*a;
+		
+		System.out.println(root1);
+		System.out.println(root2);
+
+	}
+
+}

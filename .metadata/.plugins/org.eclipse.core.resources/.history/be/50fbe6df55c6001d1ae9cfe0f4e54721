@@ -1,0 +1,25 @@
+
+public class KoreanChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+	int i = 0, cnt = 0;
+	do {
+	      char ch = (char)(i + 0xAC00);
+	      System.out.printf("%c\t", ch);
+	      if(ch == 0xAE4B)
+	    	  System.out.printf("\n=================================\n");
+	      
+	      
+	      if(cnt == 10) {
+	    	  System.out.printf("\n");
+	    	  cnt = 0;
+	      }
+	      i++;
+	      cnt++;
+	}while(i != 11172);
+		}
+
+}
