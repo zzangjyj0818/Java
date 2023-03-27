@@ -8,6 +8,7 @@ public class ExceptionExample {
 
 
         // 예외 처리를 해줘야 프로그램이 매끈하게 돌아감
+        // 모든 예외는 Exception이라는 클래스를 상속받음
 
         ArrayList arrayList = new ArrayList(3);
 
@@ -15,7 +16,7 @@ public class ExceptionExample {
         // try : 오류가 날 것 같은 구문
         // catch(Exception e) : 오류문구 출력
         // catch 는 여러개를 사용해도 됨
-        // finally : 무조건 실행할 구문
+        // finally : 공통으로 수행되어야할 코드가 쓰여짐
 
         try {
 //            arrayList.get(10);

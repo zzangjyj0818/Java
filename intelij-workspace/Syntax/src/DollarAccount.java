@@ -13,6 +13,9 @@ public class DollarAccount extends BankAccount{
     // 오버라이딩은 함수 내 코드가 변경됨
 
     // 오버라이딩 시, 접근자도 부모 클래스와 동일하게
+
+    // 오버라이딩을 할때, 부모클래스의 내용을 그대로 가져오고 싶을때는
+    // super 이라는 예약어를 사용해주면 됨
     public void deposit(){
 
     }
