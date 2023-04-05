@@ -1,3 +1,5 @@
+package Syntax;
+
 public class Light {
     public static void main(String[] args) {
         long lightspeed;

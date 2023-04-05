@@ -1,3 +1,5 @@
+package Syntax;
+
 public class AreaTest {
     public static void main(String[] args) {
         double radius, area;

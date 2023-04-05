@@ -1,3 +1,5 @@
+package Syntax;
+
 public class VarInitTest {
     public static void main(String[] args) {
         int index;

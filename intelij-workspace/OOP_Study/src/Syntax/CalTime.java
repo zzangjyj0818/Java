@@ -1,3 +1,5 @@
+package Syntax;
+
 public class CalTime {
     public static void main(String[] args) {
         final double light_speed = 30e4;

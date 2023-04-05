@@ -1,3 +1,5 @@
+package Syntax;
+
 public class Constant {
     public static void main(String[] args) {
         final double KM_PER_MILE = 1.609344;
