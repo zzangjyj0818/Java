@@ -25,7 +25,10 @@ public class Score2Grade {
             case 6:
                 grade = 'D';
                 break;
-
+            default:
+                grade = 'F';
+                break;
         }
+        System.out.println(grade);
     }
 }
