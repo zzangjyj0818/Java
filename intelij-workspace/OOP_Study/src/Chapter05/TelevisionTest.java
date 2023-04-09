@@ -2,11 +2,20 @@ package Chapter05;
 
 public class TelevisionTest {
     public static void main(String[] args) {
-        Television tv = new Television();
-        tv.channel = 7;
-        tv.volume = 9;
-        tv.onOff = true;
+//        참조 변수 선언 및 객체 생성 -> 참조 변수와 객체의 연결
+        Television myTv = new Television();
 
-        System.out.println("텔레비전의 채널은 " + tv.channel + "이고 볼륨은 " + tv.volume + "입니다.");
+        myTv.channel = 7;
+        myTv.volume = 9;
+        myTv.onOff = true;
+        myTv.print();
+
+        Television yourTv = new Television();
+
+        yourTv.channel = 7;
+        yourTv.volume = 9;
+        yourTv.onOff = true;
+        yourTv.print();
+
     }
 }
