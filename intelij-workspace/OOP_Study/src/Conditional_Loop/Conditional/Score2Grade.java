@@ -1,4 +1,4 @@
-package Conditional_Loop;
+package Conditional_Loop.Conditional;
 import java.util.*;
 public class Score2Grade {
     public static void main(String[] args) {

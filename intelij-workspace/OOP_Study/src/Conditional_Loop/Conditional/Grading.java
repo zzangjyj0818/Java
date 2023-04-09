@@ -1,4 +1,4 @@
-package Conditional_Loop;
+package Conditional_Loop.Conditional;
 
 import java.util.*;
 
