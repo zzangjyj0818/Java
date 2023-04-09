@@ -1,4 +1,4 @@
-package Chapter05;
+package Chapter05.ObjectBasic;
 
 public class TelevisionTest {
     public static void main(String[] args) {
