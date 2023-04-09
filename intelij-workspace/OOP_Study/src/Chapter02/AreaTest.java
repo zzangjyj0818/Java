@@ -1,4 +1,4 @@
-package Syntax;
+package Chapter02;
 
 public class AreaTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Conditional_Loop.Loop;
+package Chapter03.Loop;
 
 public class WelcomeLoop {
     public static void main(String[] args) {

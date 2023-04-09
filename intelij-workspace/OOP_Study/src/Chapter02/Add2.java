@@ -1,4 +1,4 @@
-package Syntax;
+package Chapter02;
 import java.util.*;
 public class Add2 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Syntax;
+package Chapter02;
 
 public class ComparisonOperator {
     public static void main(String[] args) {

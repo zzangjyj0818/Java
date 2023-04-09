@@ -1,4 +1,4 @@
-package Conditional_Loop.Conditional;
+package Chapter03.Conditional;
 import java.util.*;
 public class Welcome {
     public static void main(String[] args) {
