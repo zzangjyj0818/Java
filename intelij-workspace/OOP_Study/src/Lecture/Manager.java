@@ -8,7 +8,6 @@ public class Manager extends Employee{
         this.bonus = bonus;
     }
 
-
     public void test(){
         System.out.println("name = " + this.name);
         System.out.println("address = " + this.address);
