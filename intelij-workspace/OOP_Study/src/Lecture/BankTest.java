@@ -1,7 +1,6 @@
 package Lecture;
 
 public class BankTest {
-
     public static void main(String[] args) {
         BadBank b1 = new BadBank();
         NormalBank b2 = new NormalBank();
