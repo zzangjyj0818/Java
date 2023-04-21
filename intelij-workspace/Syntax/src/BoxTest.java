@@ -1,5 +1,3 @@
-package Chapter06.Constructor;
-
 public class BoxTest {
     public static void main(String[] args) {
         Box a = new Box(20,20,30);

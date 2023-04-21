@@ -1,5 +1,3 @@
-package Chapter06.Constructor;
-
 public class Box {
     private int width;
     private int height;
