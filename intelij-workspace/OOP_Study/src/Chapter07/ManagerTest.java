@@ -6,4 +6,5 @@ public class ManagerTest {
         System.out.println(m);
         m.test();
     }
+    
 }
