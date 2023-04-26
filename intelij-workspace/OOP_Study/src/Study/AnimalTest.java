@@ -1,9 +1,9 @@
 package Study;
 
-public class midterm05Test {
+public class AnimalTest {
     public static void main(String[] args) {
 
-        midterm05 obj[] = new midterm05[2];
+        Animal obj[] = new Animal[2];
 
         obj[0] = new dog();
         obj[1] = new cat();

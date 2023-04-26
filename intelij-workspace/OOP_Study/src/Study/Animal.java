@@ -1,6 +1,6 @@
 package Study;
 
-class midterm05 {
+class Animal {
     public void sound() {
         System.out.println("");
     }

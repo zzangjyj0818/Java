@@ -1,9 +1,9 @@
 package Study;
 
-public class midterm03Test extends midterm03 {
+public class OverloadingTest extends Overloading {
     public static void main(String[] args) {
 
-        midterm03 obj = new midterm03();
+        Overloading obj = new Overloading();
         obj.sum(10,20,30);
         obj.sum(10,20);
     }

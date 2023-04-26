@@ -1,6 +1,6 @@
 package Study;
 
-class midterm03 {
+class Overloading {
     public void sum(int a, int b) {
         System.out.println(a + b);
     }

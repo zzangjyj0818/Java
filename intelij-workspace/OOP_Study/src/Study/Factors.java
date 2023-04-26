@@ -1,6 +1,7 @@
+package Study;
 import java.util.Scanner;
 
-public class midterm02 {
+public class Factors {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

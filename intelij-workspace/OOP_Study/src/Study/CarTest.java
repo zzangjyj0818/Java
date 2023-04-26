@@ -1,15 +1,15 @@
 package Study;
 
-public class midterm04Test {
+public class CarTest {
     public static void main(String[] args) {
 
-        midterm04 obj1 = new midterm04("A3", "seoul");
-        midterm04 obj2 = new midterm04("busan");
-        midterm04 obj3 = new midterm04("A3", "china");
+        Car obj1 = new Car("A3", "seoul");
+        Car obj2 = new Car("busan");
+        Car obj3 = new Car("A3", "china");
 
-        int num = midterm04.getNumberOfCars();
+        int num = Car.getNumberOfCars();
         System.out.println(num + "대");
-        midterm04.ShowNumberOfCar();
+        Car.ShowNumberOfCar();
     }
 }
 
