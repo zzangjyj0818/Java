@@ -16,6 +16,7 @@ public class Midterm06 implements Flyable, Drivable{
         Flyable a = obj;
         Drivable b = obj;
 
+
         a.fly();
         b.drive();
     }
