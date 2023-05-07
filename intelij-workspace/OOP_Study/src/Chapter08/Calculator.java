@@ -29,21 +29,22 @@ public class Calculator extends JFrame {
         panel.setLayout(new GridLayout(0, 5, 3, 3));
         // 버튼의 갯수는 25개
         buttons = new JButton[25];
+
         int index = 0;
-        for(int i = 0; i<5; i++){
-            for(int j = 0; j<5; j++){
+        for(int i = 0; i < 5; i++){
+            for(int j = 0; j < 5; j++){
                 // 버튼 생성
                 buttons[index] = new JButton(labels[index]);
+
                 if(j >= 3){
                     //연산자들의 글씨를 빨강으로 설정
                     buttons[index].setForeground(Color.red);
                 }
-                else{
+                else {
                     //피연산자들의 글씨를 파랑으로 설정
                     buttons[index].setForeground(Color.blue);
                 }
-                // 버튼 배경을 노란색으로 설정
-                buttons[index].setBackground(Color.YELLOW);
+                buttons[index].setBackground(Color.yellow);
                 // 만들어진 버튼을 패널에 추가
                 panel.add(buttons[index]);
                 index++;
