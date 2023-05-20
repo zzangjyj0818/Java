@@ -37,7 +37,7 @@ public class Midterm04 {
 
         int num = Midterm04.getNumberOfCars();
         System.out.println("Num of Car : " + num);
-        obj1.setManufacture("seoul");
+        obj3.setManufacture("seoul");
         Midterm04.ShowNumberOfCar();
     }
 }
