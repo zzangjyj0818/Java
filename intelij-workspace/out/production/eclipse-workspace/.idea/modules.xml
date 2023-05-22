@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OOP_Study/OOP_Study.iml" filepath="$PROJECT_DIR$/OOP_Study/OOP_Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Syntax/Syntax.iml" filepath="$PROJECT_DIR$/Syntax/Syntax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/intelij-workspace.iml" filepath="$PROJECT_DIR$/.idea/intelij-workspace.iml" />
+    </modules>
+  </component>
+</project>
