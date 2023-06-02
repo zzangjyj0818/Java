@@ -1,4 +1,4 @@
-package 정연재202020985;
+package MidTerm.정연재202020985;
 
 public class Midterm07 implements Animal{
     @Override

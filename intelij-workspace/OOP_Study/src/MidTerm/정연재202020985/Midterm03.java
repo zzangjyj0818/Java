@@ -1,4 +1,4 @@
-package 정연재202020985;
+package MidTerm.정연재202020985;
 
 public class Midterm03 {
     public int sum(int a, int b){
