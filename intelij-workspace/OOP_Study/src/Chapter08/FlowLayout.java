@@ -10,7 +10,8 @@ public class FlowLayout extends JFrame {
         setSize(300,200);
         setTitle("FlowLayout");
 
-        panel.setLayout(new java.awt.FlowLayout());
+//        panel.setLayout(new java.awt.FlowLayout());
+        panel.setLayout(new GridLayout(4,0));
 
         for(int i = 1; i<=10; i++)
             panel.add(new Button("Button" + i));

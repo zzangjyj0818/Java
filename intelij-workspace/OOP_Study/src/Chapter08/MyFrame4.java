@@ -2,6 +2,7 @@ package Chapter08;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.FlowLayout;
 
 public class MyFrame4 extends JFrame {
     public MyFrame4() {
@@ -14,7 +15,7 @@ public class MyFrame4 extends JFrame {
         setLocation(screenSize.width / 2, screenSize.height / 2);
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setTitle("MyFrmae4");
+        setTitle("MyFrame4");
         Image img = kit.getImage("icon.gif");
         setIconImage(img);
 
