@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-06-07T11:13:03</date>
+  <millis>1686103983504</millis>
+  <sequence>0</sequence>
+  <logger>Chapter14.FileLoggingTest</logger>
+  <level>INFO</level>
+  <class>Chapter14.FileLoggingTest</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info level message</message>
+</record>
+<record>
+  <date>2023-06-07T11:13:03</date>
+  <millis>1686103983547</millis>
+  <sequence>1</sequence>
+  <logger>Chapter14.FileLoggingTest</logger>
+  <level>FINE</level>
+  <class>Chapter14.FileLoggingTest</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>fine level message</message>
+</record>
+<record>
+  <date>2023-06-07T11:13:03</date>
+  <millis>1686103983547</millis>
+  <sequence>2</sequence>
+  <logger>Chapter14.FileLoggingTest</logger>
+  <level>FINEST</level>
+  <class>Chapter14.FileLoggingTest</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finest level message</message>
+</record>
+</log>
